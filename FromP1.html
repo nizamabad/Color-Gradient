@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+           background-image: linear-gradient(45deg,skyblue ,violet );
+        }
+        main{
+            height: 600px;
+            width: 800px;
+            margin: 50px auto;
+            background-color: white;
+        }
+         h1{
+        
+            /*margin-left: 190px ;
+            margin-top: 40px;
+            margin-bottom: 50px;*/
+            line-height: 100px;
+           text-align: center;
+           font-size: 30px;
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          background-image: linear-gradient(30deg,rgb(79, 173, 210),rgb(227, 149, 162));
+          /*text-shadow: 0px 0px 10px pink,0px 0px 10px  skyblue;*/
+        }
+        
+        input[type=text1] {
+            width: 30%;
+            padding: 12px 20px;
+            margin: 5px 70px;
+            margin-bottom: 30px;
+            box-sizing: border-box;
+            border: none;
+            outline: none;
+            border-bottom: 2px solid skyblue;
+          }
+          input[type=text2] {
+            width: 80%;
+            padding: 12px 20px;
+            margin: 60px 70px;
+            box-sizing: border-box;
+            border: none;
+            outline: none;
+            border-bottom: 2px solid skyblue;
+          }
+          input[type=text3] {
+            width: 30%;
+            padding: 12px 20px;
+            margin: 5px 70px;
+            box-sizing: border-box;
+            border: none;
+            outline: none;
+            border-bottom: 2px solid skyblue;
+          }
+          input::placeholder{
+            text-align: center;
+            color: rgb(241, 238, 238);
+        }
+          
+      /*#inp2{
+        height: 30px;
+          width: 30%;
+          border: none;
+          border-bottom: 0.5px solid red;
+          outline: none;
+      }
+        */
+        .btn{
+            
+            padding: 15px 40px;
+            border: 1px solid transparent;
+            background-image: linear-gradient(to left,rgb(70, 198, 249),violet );
+            margin: 40px 10%;
+           /* border-radius: 40%;   */
+            
+        }
+        
+        
+        .l1{
+            margin-left: 67px;
+            margin-top: 70px;
+            color:skyblue;
+        
+    
+        }
+        .l2{
+          margin-left: 38%;
+          margin-top: 65px;
+          color:skyblue;
+  
+      }
+        .l3{
+            margin-left: 36%;
+            margin-top: 70px;
+            color:skyblue;
+    
+        }
+        
+    </style>
+</head>
+<body>
+    <main>
+       <header>
+            <h1>Responsive Contact us Form</h1>
+            <form action="">
+                <label class="l1" for="">First Name</label>
+                <label class="l2" for="">Last Name</label>
+                <br>
+                <input type="text1" name="" id="inp1" placeholder="FirstName">
+                <input type="text1" name="" id="inp1" placeholder="Last Name">
+                <br>
+                 
+                <label class="l1" for="">Email Address</label>
+                <label class="l3" for="">Website Name</label>
+               <input type="text3" name="" id="inp1" placeholder="Email Address">
+               <input type="text3" name="" id="inp2" placeholder="Website Name">
+               <br>
+               <input type="text2" name="" id="inp2" placeholder="Write Your Massage"> 
+
+               <br>
+               <input class="btn" type="submit" value="SUBMIT">
+        </form>
+    </header>
+        
+        
+    </main>
+</body>
+</html>
